@@ -1,0 +1,11 @@
+[project]
+name = "metube"
+version = "0.1.0"
+description = "youtube-dl web UI"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+	"aiohttp",
+	"python-socketio",
+	"yt-dlp[default]",
+]
